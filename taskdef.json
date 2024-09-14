@@ -84,6 +84,6 @@
         "operatingSystemFamily": "LINUX"
     },
     "registeredAt": "2024-09-14T06:42:34.726Z",
-    "registeredBy": "arn:aws:sts::715731572821:assumed-role/AWSCodePipelineServiceRole-ap-northeast-1-code-kurokawakouhei-p/1726296154402",
-    "tags": []
+    "registeredBy": "arn:aws:sts::715731572821:assumed-role/AWSCodePipelineServiceRole-ap-northeast-1-code-kurokawakouhei-p/1726296154402"
+    
 }
