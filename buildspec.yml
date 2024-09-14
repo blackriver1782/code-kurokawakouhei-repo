@@ -17,7 +17,7 @@ phases:
       - docker build -t ${ECR_REPO_NAME}:latest .
   post_build:
     commands:
-      #step2 - docker tag ${ECR_REPO_NAME}:latest ${ECR_IMAGE_URI}
+      - docker tag ${ECR_REPO_NAME}:latest ${ECR_IMAGE_URI}
       - docker push ${ECR_IMAGE_URI}
 
       #step3  Generate image definitions file for ECS
